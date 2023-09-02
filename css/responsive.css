@@ -1,0 +1,44 @@
+@media(max-width: 658px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto 380px;
+    }
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+        content: url(../product-preview-card-component-main/images/image-product-mobile.jpg);
+        width: 343px;
+        height: 270px;
+    }
+
+    h1 {
+        width: 92px;
+        color: #6C7289;
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    h2 {
+        width: 295px;
+    }
+
+    .description {
+        width: 295px;
+    }
+
+    .prices {
+        display: grid;
+        grid-template-columns: 140px 150px;
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
+
+    .background-green {
+        width: 295px;
+    }
+
+    .attribution {
+        font-size: 9px;
+    }
+}
